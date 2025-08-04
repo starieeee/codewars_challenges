@@ -8,3 +8,9 @@ function getCount(str){
     return count;
 }
 console.log(getCount("Hello"));
+
+// second method 
+function count(vowel){
+    return (vowel.match(/[aeiou]/ig || [])).length;
+}
+console.log(count("Hi")); 
