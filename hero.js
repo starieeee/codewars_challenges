@@ -16,3 +16,9 @@ function hero(bullets, dragons){
   return false;
 }
 console.log(hero(0, 2));
+
+// second method
+function survive(bullet, monster){
+    return bullet >= monster * 2;
+}
+console.log(survive(10, 2));
