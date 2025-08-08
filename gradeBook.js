@@ -14,7 +14,7 @@ function getGrade (s1, s2, s3) {
   else if(avrg < 90){
     return "B";
   }
-  else if (avrg < 100){
+  else if (avrg <= 100){
     return "A";
   }
   else{
