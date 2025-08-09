@@ -27,7 +27,7 @@ function switchItUp(number){
       return "Eight";
       break;
     case 9:
-      return "Nice";
+      return "Nine";
       break;
     case 0:
       return "Zero";
