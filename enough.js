@@ -12,4 +12,10 @@ function enough(cap, on, wait) {
 }
 console.log(enough(10,5,5));
 
+// Num return
+function isEnough(maxHold, currentHold, wait){
+    let total = currentHold + wait;
+    return total <= maxHold ? 0 : total - maxHold;
+}
+console.log(isEnough(100,60,50));
 
