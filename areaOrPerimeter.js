@@ -15,4 +15,4 @@ function areaOrrPeri(length, width){
     return length === width ? length * width : 2 * (length + width);
 }
 console.log(areaOrrPeri(3,3));
-console.log(areaOrrPeri(4,3));
+console.log(areaOrrPeri(2,2));
