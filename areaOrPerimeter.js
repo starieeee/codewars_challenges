@@ -16,3 +16,4 @@ function areaOrrPeri(length, width){
 }
 console.log(areaOrrPeri(3,3));
 console.log(areaOrrPeri(2,2));
+console.log(areaOrrPeri(4,2));
