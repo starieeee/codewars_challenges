@@ -15,3 +15,8 @@ function updateLight(current) {
   }
 }
 console.log(updateLight("green"));
+
+// Second method
+function updateLighh(current) {
+    return current === "green" ? "yellow" : current === "yellow" ? "red" : "green";
+}
