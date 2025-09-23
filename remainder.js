@@ -1,11 +1,13 @@
 function remainder(n, m){
   // Divide the larger argument by the smaller argument and return the remainder
-  if (m === 0 || n === 0){
+  if (m === 0 && n === 0){
     return NaN;
   }
   let larger = Math.max(n, m);
   let smaller = Math.min(n, m);
   
+  if (smaller === 0) return NaN;
+
   return larger % smaller;
 }
 console.log(remainder(17, 5));
