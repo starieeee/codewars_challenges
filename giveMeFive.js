@@ -11,4 +11,5 @@ function giveMeFive(obj){
   } 
   return res;
 }
+// Output the result
 giveMeFive({ "Tomato": "fruit", "Potato": "tuber" });
